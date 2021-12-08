@@ -1,0 +1,40 @@
+body{
+    height: 100%;
+    /* color: hsl(0 ,100%,50%); */
+}
+a:link {
+    color: rgb(248, 42, 15);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(255, 203, 211);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(89, 253, 68);
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(0, 68, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+h1 {
+    color: rgb(248, 42, 15);
+    background-color: transparent;
+   
+  }
+h1:visited {
+    color: rgb(255, 203, 211);
+    background-color: transparent;
+   
+  }
+h1:hover {
+    color: rgb(89, 253, 68);
+    background-color: transparent;
+    
+}

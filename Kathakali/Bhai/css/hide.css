@@ -1,0 +1,43 @@
+
+
+audio{
+    display: none;
+}
+/* video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+   */
+
+video{
+    width: 600px;
+    height: 100%;
+}
+/* body , */
+ h1{
+    position: fixed;
+    bottom: 0;
+    /* background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; */
+    width: 100%;
+    padding: 20px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    bottom: 60px;
+    /* background:burlywood; */
+    color: rgb(0, 255, 21);
+    width: 300px;
+   
+}
+a{
+    text-align: center;
+    position: fixed;
+    bottom: -4px;
+font-size: 2em;
+
+}

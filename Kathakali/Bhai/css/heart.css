@@ -1,0 +1,189 @@
+body {
+    background: -moz-radial-gradient(top left, white 10%, pink 50%, violet 100%);   
+background: -webkit-radial-gradient(top left, white 10%, pink 50%, violet 100%);
+background: -ms-radial-gradient(top left, white 10%, pink 50%, violet 100%);
+width:100%;
+height:1000px;
+font-family:cursive;
+background-size:cover;
+margin:5px;
+
+}
+.cont{
+text-align:center;
+}
+.you{
+border-radius:50%;
+width:200px;
+height:200px;
+position:absolute ;
+top:200px;
+left:25%; background-image:url(https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/71513175_2441833492702498_5087603772469805056_n.jpg?_nc_cat=103&efg=eyJpIjoidCJ9&_nc_oc=AQlHCC-77SjmOB4BLplBfoV2Ib_L3WJypG0V86874ErH_CXI2KZO4e2KLWkgNhYtliU&_nc_ht=scontent-hkg3-1.xx&oh=c605bc26e65b41c22ccf05cb5caef36f&oe=5E2982F1);
+background-size:cover;
+}
+
+
+.sen{
+position:absolute ;
+top:400px;
+left:0%;
+font-size:20px;
+font-family:fantasy;
+}
+
+
+.vid{
+background:linear-gradient(0deg,
+rgba(1000, 1000, 1000, 0.7) 0%,
+rgba(1000, 1000, 1000, 0.7) 25%,
+rgba(1000, 1000, 1000,  0.7) 75%,
+rgba(1000, 1000, 1000,  0.7) 100%);
+box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+inset 0px 0px 1px rgba(0, 0, 0, 0.6);
+
+
+position:absolute ;
+top:550px;
+left:0%;
+padding:5px;
+
+}
+
+.heart{
+border-radius:50% 50% 0% 0%;
+background-color:red;
+position:absolute ;
+
+}
+#mov{
+animation-name:move1;
+animation-duration:3s;
+animation-iteration-count:infinite ;
+}
+
+@keyframes move1{
+0%{opacity:0;}
+100%{opacity:1;
+transform: translate(-200px, -200px);}
+
+}
+#l1{
+width:50px;
+height:80px;
+transform:rotate(-80deg);
+left:150px;
+top:350px;
+box-shadow: inset 5px 5px 5px rgba(138, 0, 0, 1);
+animation-name:lmove1;
+animation-duration:5s;
+animation-iteration-count:infinite ;
+}
+
+/* @keyframes lmove1{
+0%{opacity:0;}
+50%{opacity:1;
+transform:rotate(-80deg) translate(200px, -200px);}
+100%{opacity:0;
+transform:rotate(-80deg) translate(250px, -250px);}
+
+} */
+#r1{
+width:50px;
+height:80px;
+transform:rotate(13deg);
+  left:169px;
+top:338px;
+   box-shadow: inset -5px -5px 5px rgba(138, 0, 0, 1);
+ animation-name:rmove1;
+animation-duration:5s;
+animation-iteration-count:infinite ;         
+   
+}
+/*@keyframes rmove1{
+0%{opacity:0;}
+50%{opacity:1;
+transform:rotate(-13deg) translate(-200px, -200px);}
+100%{opacity:0;
+transform:rotate(-13deg) translate(-250px, -250px);}
+
+}
+*/
+#l2{
+width:30px;
+height:50px;
+transform:rotate(-80deg);
+left:170px;
+top:379px;
+box-shadow: inset 5px 5px 5px rgba(138, 0, 0, 1);
+}
+#r2{
+width:30px;
+height:50px;
+transform:rotate(13deg);
+  left:189px;
+top:372px;
+   box-shadow: inset -5px -5px 5px rgba(138, 0, 0, 1);
+}
+#l3{
+width:20px;
+height:40px;
+transform:rotate(-13deg);
+left:208px;
+top:380px;
+box-shadow: inset 5px 5px 5px rgba(138, 0, 0, 1);
+}
+#r3{
+width:20px;
+height:40px;
+transform:rotate(80deg);
+  left:221px;
+top:391px;
+   box-shadow: inset -5px -5px 5px rgba(138, 0, 0, 1);
+}
+
+
+#mov2{
+animation-name:move2;
+animation-duration:5s;
+animation-iteration-count:infinite ;
+
+}
+
+@keyframes move2{
+0%{opacity:0;}
+100%{opacity:1;
+transform: translate(-200px, -200px);}
+
+}
+#mov3{
+animation-name:move3;
+animation-duration:4s;
+animation-iteration-count:infinite ;
+}
+@keyframes move3{
+0%{opacity:0;}
+100%{opacity:1;
+transform: translate(200px, -200px);}
+
+}
+
+#ycon{
+border-radius:35%;
+height:25px;
+width:50px;
+}
+#solo{
+border-radius:50%;
+height:25px;
+width:25px;
+}
+h4{
+font-family:Fantasy;
+}
+footer{
+position:absolute ;
+top:800px;
+font-family:Monospace;
+color:black;
+
+}
