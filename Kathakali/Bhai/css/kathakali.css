@@ -144,7 +144,7 @@ backdrop-filter: blur( 4px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-.wishbox .btn{
+.wishbox .btn , a{
         background-color: #7b38d8;
         border-radius: 10px;
         border: 4px double #cccccc;
