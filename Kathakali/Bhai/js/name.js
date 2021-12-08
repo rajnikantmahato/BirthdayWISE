@@ -4,4 +4,4 @@
 
 //this is a main name Controller
 
-var name = "Rajni" //Type anyname tho show on webpage
+var name = "Ranveer Kumar Sharma" //Type anyname tho show on webpage
