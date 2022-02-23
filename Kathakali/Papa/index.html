@@ -1,1 +1,90 @@
+<!-- 
+    Auther : Rajni kant mahato
+    Date   : 23/02/2022
+    About  :  Happy BIRTHDAY 
+ -->
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gopal papa birthday 🎂</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"/>
+<script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/autoplay.js"></script>
+</head>
+<body>
+    <audio autoplay loop id="kathakali">
+        <source src="mp3/Happy Birthday Papa - Birthday Song.mp3">
+    </audio>
+<div id="main_page"> <audio autoplay loop id="kathakali">
+    <source src="mp3/Happy Birthday Papa - Birthday Song.mp3">
+</audio>
+<div id="bday_banner"></div>
+<div id="main_card">
+<section id="avtar"></section>
+<section id="bday_txt-1">HAPPY BIRTHDAY GOPAL PAPA</section>
+<section id="bday_txt-2">
+    Today was the day
+    So many years ago
+    You came into this world,
+    Bringing a special glow.
+    So full of love
+    And laughter so loud.
+    Thinking of you today,
+    You still make us proud.
+    Daddy, I know you're watching,
+    I know your looking down.
+    Your birthday is today,
+    And although you're not around,
+    It doesn't stop our thoughts
+    And never stops our prayers.
+    I am sending birthday wishes
+    To my angel upstairs.
+    </section>
+<section id="button">Let's celebrate</section>
+<img src="img/balloon-PNG4961.png" class="balloons" id="balloon-1" />
+<img src="img/balloon-PNG4961.png" class="balloons" id="balloon-2" />
+<img src="img/gift-PNG5950.png" id="gift"/>
+</div>
+
+</div>
+
+<div id="celeb_page">
+<audio controls style=" display:none;" loop   id="music"  >
+<source  src="mp3/one-last-time-ariana-grande.mp3">
+</audio>
+<img src="img/fq0K4O-birthday-transparent-birthday-animated.png" id="bday_txt_img"/>
+<canvas id="cnvs"></canvas>
+</div>
+<script>
+window.addEventListener('DOMContentLoaded',()=>{
+const $ =(_)=>{return document.querySelector(_)}
+const canvas = document.getElementById('cnvs');
+const jsConfetti = new JSConfetti({ canvas });
+var btn=$('#button');
+var main_page=$('#main_page');
+var celeb_page=$('#celeb_page');
+var music=$('#music');
+btn.onclick=()=>{
+main_page.style.display="none";
+celeb_page.style.display="block";
+music.play();
+function confettiAnim() {
+jsConfetti.addConfetti({
+confettiColors:['#eec055', '#6790f0', '#f06790', '#8367f0', '#f067d5', '#f9bec7'],
+confettiRadius: 9,
+confettiNumber: 300,
+});
+}
+setInterval(confettiAnim,1600);
+}
+});
+</script>
+</body>
+</html>
